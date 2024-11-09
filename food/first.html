@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header styling */
+        header {
+            background: #ff6b6b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Featured recipe section */
+        .featured {
+            padding: 40px;
+            text-align: center;
+            background-color: #ffe0e0;
+        }
+
+        .featured img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .featured h2 {
+            font-size: 2rem;
+            color: #ff6b6b;
+        }
+
+        .featured p {
+            margin: 20px 0;
+        }
+
+        /* Recipe grid */
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .recipe-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .recipe-card h3 {
+            color: #ff6b6b;
+            margin: 15px 0;
+        }
+
+        .recipe-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Recipe Hub</h1>
+        <nav>
+            <a href="index.html">Log Out</a>
+        </nav>
+    </header>
+
+    <!-- Featured Recipe -->
+    <section class="featured">
+        <h2>"Welcome Home to Flavors!"</h2>
+        <p>"Bringing You Closer to the Heart of Food, Where Every Dish Tells a Story of Flavor, Culture, and Love."</p>
+    </section>
+
+    <!-- Recipe Grid -->
+    <section class="recipe-grid">
+        <div class="recipe-card">
+            <img src="C:\Users\Shraddha\OneDrive\Desktop\food\karnataka.jpg" alt="Recipe 1">
+            <h3>Karnataka</h3>
+            <p>"Karnataka on a Plate: Discover the True Taste of the South!"</p>
+            <a href="karnataka.html">Traditional Dishes Of Karnataka</a>
+        </div>
+        <div class="recipe-card">
+            <img src="C:\Users\Shraddha\OneDrive\Desktop\food\kerala.jpeg" alt="Recipe 2">
+            <h3>Kerala</h3>
+            <p>A"Kerala: Where Every Bite is a Coastal Delight!"</p>
+            <a href="kerala.html">Traditional Dishes Of Kerala</a>
+        </div>
+        <div class="recipe-card">
+            <img src="C:\Users\Shraddha\OneDrive\Desktop\food\rajasthan.jpeg" alt="Recipe 3">
+            <h3>Rajasthan</h3>
+            <p>"Savor the Timeless Recipes of Rajasthan."</p>
+            <a href="rajasthan.html">Traditional Dishes Of Rajasthan</a>
+        </div>
+        <div class="recipe-card">
+            <img src="C:\Users\Shraddha\OneDrive\Desktop\food\bengali.jpeg" alt="Recipe 4">
+            <h3>Bengali</h3>
+            <p>"From Bengal’s Heart to Your Plate."</p>
+            <a href="bengali.html">Traditional Dishes Of Bengali</a>
+        </div>
+    </section>
+
+</body>
+</html>
