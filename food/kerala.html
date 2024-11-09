@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Recipes</title>
+    <style>
+        /* Apply the background image */
+        body {
+            background-image: url('data:image/jpeg;base64,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'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Transparent overlay for better text readability */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6); /* Black overlay with transparency */
+            padding: 40px;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2rem;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #ff6b6b;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: 2px solid #ff6b6b;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #ff6b6b;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Recipes from Kerala</h1>
+        <ul>
+            <li><a href="Appam_stew.html">Recipe 1: Appam</a></li>
+            <li><a href="puttu_kadala.html">Recipe 2: Puttu_kadala</a></li> 
+           
+            <!-- Add more recipes as needed -->
+        </ul>
+        <a href="first.html">Back to Home</a>
+    </div>
+</body>
+</html>
